@@ -6,7 +6,7 @@ WARNINGS = 1
 
 include $(THEOS)/makefiles/common.mk
 
-TWEAK_NAME = AOV
+TWEAK_NAME = 34306jit
 
 $(TWEAK_NAME)_FRAMEWORKS =  UIKit Foundation Security QuartzCore CoreGraphics CoreText  AVFoundation Accelerate GLKit SystemConfiguration GameController
 $(TWEAK_NAME)_CCFLAGS = -fno-rtti -fvisibility=hidden -DNDEBUG -std=c++11
